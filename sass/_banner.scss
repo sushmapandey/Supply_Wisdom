@@ -1,0 +1,219 @@
+.banner{
+  background-color: $primary;
+  padding-top: 40px;
+  padding-bottom: 70px;
+
+  .container{
+    display: flex;
+    flex-direction: column-reverse;
+    @include media-breakpoint-up(md){
+      flex-direction: row;
+      position: relative;
+
+    }
+
+    .left-content{
+      // max-width: 560px;
+      color:$white;
+      padding-top: 20%;
+      @include media-breakpoint-up(sm){
+        padding-top: 10%;
+      }
+
+      @include media-breakpoint-up(md){
+        width: 50%;
+        padding-top: 8%;
+        padding-right: 2%;
+      }
+
+      h1{
+        color:$white;
+        font-weight: $font-weight-medium;
+        font-size: 30px;
+        text-transform: uppercase;
+        @include media-breakpoint-up(lg){
+          font-size: 42px;
+        }
+        span{
+          font-weight: $font-weight-bold;
+          font-size: 32px;
+          text-transform: capitalize;
+          display: block;
+          @include media-breakpoint-up(lg){
+            font-size: 54px;
+          }
+        }
+      }
+
+      p{
+        font-size: 16px;
+        @include media-breakpoint-up(lg){
+          font-size: 22px;
+        }
+      }
+      a{
+        color: $white;
+        padding-left: 0;
+        text-transform: uppercase;
+        &:hover{
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+
+.left-content{
+  .carousel-wrap {
+    padding-left: 0 ;
+    .owl-carousel.owl-loaded {
+      display: block;
+      @include media-breakpoint-up(md){
+        // width: 95%;
+      }
+    }
+  }
+  .owl-nav{
+    display: none;
+  }
+  .owl-dots{
+    bottom: 0px;
+    display: flex;
+    justify-content: flex-start;
+    position: absolute;
+    width: 100%;
+    align-items: center;
+    bottom: -40px;
+
+
+    .owl-dot{
+      height: 4px;
+      margin: 0 5px;
+      transition: opacity .3s;
+      width: 25px;
+      background-color: lighten($primary,30%);
+      text-align: center;
+      @include media-breakpoint-up(lg){
+        // height: 6px;
+      }
+    }
+  }
+}
+.left-content{
+  .owl-dot.active{
+    background-color: #fff;
+  }
+}
+.right-content{
+  position: relative;
+  @include media-breakpoint-up(md){
+    width: 50%;
+    position: unset;
+  }
+}
+.sw-wrapper{
+  background-color: darken($primary,13%);
+  color: $white;
+  position: absolute;
+  padding: 20px; 
+  font-size: 16px; 
+  bottom: 0;
+  right: 0;
+  width: 310px;
+  opacity: 0.9;
+
+  ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0;
+  }
+  h3{
+    font-size: 16px;
+    color:$orange-100;
+  }
+  .line{
+    display: block;
+    background-color: $white;
+    width: 100px;
+    height: 1px;
+    margin-bottom: 10px;
+  }
+}
+
+
+/*=============================================
+=            Breadcrumbs            =
+=============================================*/
+
+.breadcrumb{
+  -webkit-box-shadow: -1px 7px 4px -4px rgba(198,198,204,0.78);
+  -moz-box-shadow: -1px 7px 4px -4px rgba(198,198,204,0.78);
+  box-shadow: -1px 7px 4px -4px rgba(198,198,204,0.78);
+  font-size:15px;
+  ul{
+    display: block;
+    padding: 0.75rem;
+    list-style: none;
+    }
+    ul li{
+      // display: inline-block;
+      text-align: center;
+      @include media-breakpoint-up(lg){
+        display: inline-block;
+        text-align: left;
+      }
+    }
+
+  }
+.breadcrumb{
+  @include media-breakpoint-up(lg){
+    ul>li+li:before {
+      padding: 0 5px;
+      content: "|\00a0";
+    }
+  }
+}
+
+.breadcrumb{
+  .container{
+    position: relative;
+    font-size: 18px;
+    font-weight: $font-weight-medium;
+    @include media-breakpoint-up(lg){
+      font-size: 22px;
+    }
+    li{
+      marquee{
+
+        @include media-breakpoint-up(lg){
+          width: 655px;
+          margin-top: -21px;
+          position: absolute;
+          bottom: 12px;
+          right: 0;
+          @include media-breakpoint-up(xl){
+            width: 825px;
+          }
+        }
+      }
+    }
+  }
+}
+/*=====  End of Breadcrumbs  ======*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=====  End of owl carousel  ======*/

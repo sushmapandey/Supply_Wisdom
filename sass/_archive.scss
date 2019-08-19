@@ -1,0 +1,33 @@
+.page-header{
+  margin: 70px 0;
+}
+.page-title{
+  font-size: 42px;
+  line-height: 49px;
+}
+
+
+
+
+/*=============================================
+=            Post blocks            =
+=============================================*/
+.h-box{
+  background-color: #fff;
+  box-shadow: 0 8px 25px 0 rgba(118, 118, 118, 0.16);
+  padding: 45px;
+  @include clearfix;
+}
+.ar-img{
+  width: 40%;
+  float: left;
+}
+.ar-content{
+  margin-left: 43%;
+  h2{
+    font-size: 32px;
+  }
+}
+
+/*=====  End of Post blocks  ======*/
+

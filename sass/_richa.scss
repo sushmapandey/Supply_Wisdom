@@ -1,0 +1,361 @@
+.item{
+    position: relative;
+    
+}
+.quote-up{
+    position: absolute;
+    font-size: 42px;
+    top: -32px;
+    left: 33px;
+    @include media-breakpoint-up(sm){
+        left: 48px;
+}
+    @include media-breakpoint-up(md){
+        left: 62px;
+}
+    @include media-breakpoint-up(lg){
+        left: 120px;
+        font-size: 81px;
+        top: -60px;
+}
+    @include media-breakpoint-up(xl){
+        left: 140px;
+}
+
+}
+.quote-down{
+    position: absolute;
+    font-size: 42px;
+    bottom: -32px;
+    right: 33px;
+    @include media-breakpoint-up(sm){
+        right: 48px;
+}
+    @include media-breakpoint-up(md){
+        right: 62px;
+}
+    @include media-breakpoint-up(lg){
+        right: 120px;
+        font-size: 81px;
+        bottom: -60px;
+}
+    @include media-breakpoint-up(xl){
+        right: 140px;
+}
+    // left: 255px;
+}
+.t-box{
+    width: 290px;
+    // height: 180px;
+    margin: 55px auto;
+    border: 4px solid #aaaaaa;
+    // background-image: url(img/quote-left-icon.svg), url(img/quote-right-icon.svg);
+    // background-repeat: no-repeat, no-repeat;
+    // background-position: top -25px left 10px, bottom -25px right 10px;
+    // z-index: 5;
+    padding: 15px;
+    @include media-breakpoint-up(sm){
+        width: 450px;
+}
+    @include media-breakpoint-up(md){
+        width: 600px;
+}
+    @include media-breakpoint-up(lg){
+        width: 720px;
+        padding: 30px;
+        margin: 70px auto;
+}
+    @include media-breakpoint-up(xl){
+        width: 860px;
+}
+    
+    h4{
+        font-size: 22px;
+        font-weight: $font-weight-bold;
+        @include media-breakpoint-up(lg){
+            font-size: 28px;
+}
+        
+
+}
+    p{
+        font-size: 13px;
+        font-style: italic;
+        @include media-breakpoint-up(lg){
+            font-size: 14px;
+}
+}
+}
+
+
+
+
+
+/*============================================
+= richa middle section =
+============================================*/
+
+.sw-value{
+    // padding: 50px 0;
+}
+.heading-text{
+    h2{
+        font-size: 32px;
+        text-align: center;
+        margin-bottom: 30px;
+        font-weight: $font-weight-bold;
+        text-transform: capitalize;
+        padding-top: 65px;
+        @include media-breakpoint-up(lg){
+            font-size: 42px;
+            padding-top: 90px;
+        }
+    }
+    p{
+        font-size: 16px;
+        text-align: center;
+        max-width: 300px;
+        margin: 0 auto 44px;
+
+        @include media-breakpoint-up(sm){
+            max-width: 450px;
+        }
+        @include media-breakpoint-up(md){
+            max-width: 600px;
+        }
+        @include media-breakpoint-up(lg){
+            font-size: 22px;
+            max-width: 920px;
+
+        }
+        @include media-breakpoint-up(xl){
+            max-width: 970px;
+        }
+    }
+}
+
+    .sw-heading{
+        font-size: 32px;
+        text-align: center;
+        margin-bottom: 30px;
+        font-weight: $font-weight-bold;
+        text-transform: capitalize;
+        padding-top: 65px;
+        @include media-breakpoint-up(lg){
+            font-size: 42px;
+            padding-top: 90px;
+}
+}
+    .sw-para{
+        font-size: 16px;
+        text-align: center;
+        max-width: 300px;
+        margin: 0 auto 44px;
+
+        @include media-breakpoint-up(sm){
+            max-width: 450px;
+}
+        @include media-breakpoint-up(md){
+            max-width: 600px;
+}
+        @include media-breakpoint-up(lg){
+            font-size: 22px;
+            max-width: 920px;
+
+}
+        @include media-breakpoint-up(xl){
+            max-width: 970px;
+}
+}
+
+.value-row{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    padding-bottom: 30px;
+    @include media-breakpoint-up(lg){
+        justify-content: space-between;
+        margin: 90px 0;
+}
+}
+@media(min-width: 992px){
+    .value-row:nth-child(2n){
+        flex-direction: row-reverse;
+}
+}
+.v-icon{
+   margin-bottom: 15px;
+    width: 175.3px;
+    height: 175.3px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    @include media-breakpoint-up(lg){
+        width: 346px;
+    height: 346px;
+}
+    &:hover{
+        border: 2px solid $orange;
+        transition: all 0.5s ease-in-out;
+    
+}
+}
+.cir-img{
+    width: 144.5px;
+    height: 144.5px;
+    box-shadow: 0 8px 25px 0 rgba(116, 116, 116, 0.16);
+    background-color: #ffffff;
+    border-radius: 50%;
+    margin: 15px auto;
+    // position: relative;
+    padding: 30px 35px;
+    @include media-breakpoint-up(lg){
+        width: 285.2px;
+    height: 285.2px;
+    margin: 30px auto;
+    padding: 80px 85px;
+
+}
+    span{
+        font-size: 75px;
+        @include media-breakpoint-up(lg){
+            font-size: 115px;
+}
+}
+}
+.v-text{
+    align-self: center;
+    width: 500px;
+    @include media-breakpoint-up(md){
+        margin-left: 20px;
+}
+    h3{
+        font-size: 22px;
+        font-weight: $font-weight-bold;
+        text-align: center;
+        max-width: 280px;
+        margin: 0 auto 20px;
+        @include media-breakpoint-up(md){
+            max-width: 350px;
+}
+        @include media-breakpoint-up(lg){
+            font-size: 32px;
+            max-width: 486px;
+            text-align: left;
+}
+}
+    p{
+        font-size: 16px;
+        text-align: center;
+        max-width: 300px;
+        text-align: center;
+        margin: 0 auto;
+        @include media-breakpoint-up(lg){
+            font-size: 22px;
+            max-width: 486px;
+            text-align: left;
+}
+}
+}
+
+.read-link{
+    text-align: center;
+    text-transform: uppercase;
+    margin:80px auto;
+    color: #0088bb;
+    display: block;
+    font-weight: $font-weight-bold;
+    .icon-angle-right-icon{
+        margin: 0 10px;
+        color: #0088bb ;
+        font-size: 14px;
+        // display: inline-block;
+        position: relative;
+        @include media-breakpoint-up(lg){
+            font-size: 18px;
+            top: 3px;
+}
+}
+    &:hover{
+        text-decoration: none;
+}
+}
+// features //
+.sw-features{
+    background-color: #f7f7f7;
+    padding-bottom: 80px;
+}
+
+
+
+.feature-row{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    @include media-breakpoint-up(lg){
+        justify-content: space-around;
+}
+
+}
+.feature-col{
+    width: 235px;
+    @include media-breakpoint-up(lg){
+        width: 280px;
+        margin: 75px auto;
+}
+    img{
+        width: 144px;
+        margin: 0 auto;
+        @include media-breakpoint-up(lg){
+            width: 200px;
+}
+}
+    p{
+        font-size: 18px;
+        text-align: center;
+        font-weight: $font-weight-medium;
+        @include media-breakpoint-up(lg){
+            font-size: 24px;
+}
+
+}
+}
+
+.testimonial{
+    padding-bottom: 150px ;
+    @include media-breakpoint-up(lg){
+        padding-bottom: 200px ;
+}
+
+    .sw-para{
+        margin-bottom: 50px;
+        @include media-breakpoint-up(lg){
+            margin-bottom: 112px;
+}
+}
+}
+
+
+.sw-partners{
+    background-color: #f7f7f7;
+    // padding: 50px 0;
+    .partner-img{
+        width: 226px;
+        margin: 30px auto 60px;
+        @include media-breakpoint-up(lg){
+            margin: 30px auto 75px
+}
+}
+    
+    
+}
+.item{
+    height: unset !important;
+}
+// .owl-nav i{
+// font-size: 20px;
+// }
+
+/*===== End of richa middle section ======*/

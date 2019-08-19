@@ -1,0 +1,172 @@
+.item {
+  height: 20rem;
+}
+
+
+.owl-dot:hover, .owl-dot.active {
+  opacity: 1;
+}
+
+
+
+/* fix blank or flashing items on carousel */
+.owl-carousel .item {
+  position: relative;
+  z-index: 100;
+  -webkit-backface-visibility: hidden;
+  // cursor: pointer;
+}
+
+/* end fix */
+.owl-nav > div {
+  margin-top: -26px;
+  position: absolute;
+  // top: 50%;
+  color: #0088bb;
+}
+
+
+
+
+
+.one{
+  .owl-nav i {
+    font-size: 40px;
+}
+  .owl-nav .owl-prev {
+    top: 110px;
+    @include media-breakpoint-up(lg){
+      top: 150px
+}
+}
+
+  .owl-nav .owl-next {
+    right: -8px;
+    top: 110px;
+    @include media-breakpoint-up(lg){
+      top: 150px;
+}
+}
+}
+
+.two{
+  .owl-nav i {
+    font-size: 40px;
+}
+  .owl-nav .owl-prev {
+    top: 100px;
+    /* @include media-breakpoint-up(lg){
+ top: 150px
+ } */
+}
+  .owl-nav .owl-prev{
+    @include media-breakpoint-up(lg){
+      left: -25px;
+};
+}
+  .owl-nav .owl-next {
+    right: -8px;
+    top: 100px;
+    @include media-breakpoint-up(lg){
+      right: -25px;
+}
+}
+}
+
+
+
+
+
+/*---------- awards and publication ----------*/
+
+
+
+  .one{
+      .owl-nav > div{
+        margin-top: 60px;
+        margin-left: -8px;
+        @include media-breakpoint-up(sm){
+          margin-top: 30px;
+}
+        @include media-breakpoint-up(md){
+          margin-top: 20px;
+}
+        @include media-breakpoint-up(lg){
+          margin-left: unset;
+}
+        // top: 100%;
+}
+      .owl-dots {
+        // bottom: 0px;
+        margin: 50px auto;
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        width: 100%;
+        // background-color: rgba(134, 114, 88, 0.6);
+        height: 65px;
+        align-items: center;
+        @include media-breakpoint-up(lg){
+          margin: 110px auto;
+}
+
+        .active{
+          background-color: $orange;
+}
+}
+      
+      .owl-dot {
+        // border-radius: 50%;
+        height: 4px;
+        margin: 0 5px;
+        // opacity: .5;
+        // transition: opacity .3s;
+        width: 20px;
+        // border:solid 3px $white;
+        background-color: #0088bb;
+}
+}
+.one .owl-item img{
+  width: unset !important;
+}
+
+
+.four{
+  .owl-nav{
+    display: none !important;
+}
+  .owl-item img{
+    width: 100% !important;
+}
+  .owl-dots {
+    // bottom: 0px;
+    margin: 0 !important;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    // background-color: rgba(134, 114, 88, 0.6);
+    height: 65px;
+    align-items: center;
+    .active{
+      background-color: #006b93;
+}
+}
+  
+  .owl-dot {
+    // border-radius: 50%;
+    height: 4px;
+    margin: 0 5px;
+    // opacity: .5;
+    // transition: opacity .3s;
+    width: 20px;
+    // border:solid 3px $white;
+    background-color: #fff;
+}
+}
+
+.sw-partners{
+  .owl-carousel .owl-nav.disabled, .owl-carousel .owl-dots.disabled {
+      display: block;
+  }
+}

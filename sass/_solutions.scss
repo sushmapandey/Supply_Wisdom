@@ -1,0 +1,559 @@
+.solution-banner{
+  background-color: #0088bb;
+  padding-top: 40px;
+  padding-bottom: 80px;
+  .bnnr-row{
+    position: relative;
+    margin: 50px 0;
+    display: flex;
+    flex-direction: column-reverse;
+    @include media-breakpoint-up(md){
+      flex-direction: row;
+}
+        .bnnr-text{
+          color:$white;
+          padding-top: 20%;
+          @include media-breakpoint-up(sm){
+            padding-top: 10%;
+}
+          @include media-breakpoint-up(md){
+            width: 750px;
+            padding-top: 8%;
+}
+          h1{
+            color:$white;
+            font-weight: $font-weight-medium;
+            font-size: 30px;
+            @include media-breakpoint-up(lg){
+              font-size: 48px;
+}
+            span{
+              font-weight: $font-weight-bold;
+              font-size: 32px;
+              display: block;
+              @include media-breakpoint-up(lg){
+                font-size: 54px;
+}
+}
+}
+          p{
+            font-size: 16px;
+            max-width: 300px;
+            @include media-breakpoint-up(lg){
+              font-size: 22px;
+              max-width: 420px;
+}
+}
+          a{
+            color: $white;
+            padding-left: 0;
+            text-transform: uppercase;
+            &:hover{
+              text-decoration: none;
+}
+}
+}
+      
+}
+}
+.bnnr-graphic{
+  align-self: center;
+    img{
+      width: 100% !important;
+      display: block;
+      height: auto;
+}
+}
+/*======= End of banner section =======*/
+.solution-features{
+  // padding: 40px 0;
+    .row{
+        display: flex;
+        .col{
+          padding-bottom: 20px;
+          width: 260px;
+          margin: 60px auto 30px;
+          &:hover{
+            box-shadow: 0 6px 20px 0 rgba(114, 114, 114, 0.16);
+}
+}
+}
+    h5{
+      font-size: 22px;
+      text-align: center;
+}
+    p{
+      font-size: 18px;
+      text-align: center;
+      max-width: 186px;
+      margin: 0 auto;
+}
+    
+}
+.hex {
+  width: 150px;
+  height: 82px;
+  background: #0088bb;
+  position: relative;
+  margin: 70px auto;
+  &:hover{
+    background-color: $orange;
+}
+}
+.hex:before, .hex:after {
+  content:"";
+  border-left: 75px solid transparent;
+  border-right: 75px solid transparent;
+  position: absolute;
+}
+.hex:before {
+  top: -50px;
+  border-bottom: 50px solid #0088bb;
+}
+.hex:after {
+  bottom: -50px;
+  border-top: 50px solid #0088bb;
+  
+}
+
+.hex:hover:before{
+  border-bottom: 50px solid $orange;
+}
+.hex:hover:after{
+  border-top: 50px solid $orange;
+}
+
+.hex.inner {
+  background-color:#fff;
+  -webkit-transform: scale(.95, .95);
+  -moz-transform: scale(.95, .95);
+  transform: scale(.94, .94);
+  z-index:1;
+}
+.hex.inner:before {
+  border-bottom: 50px solid #fff;
+}
+.hex.inner:after {
+  border-top: 50px solid #fff;
+}
+.hex.inner2 {
+  background-color:#c6c6c6;
+  -webkit-transform: scale(.8, .8);
+  -moz-transform: scale(.8, .8);
+  transform: scale(.8, .8);
+  z-index:2;
+  span{
+    font-size: 60px;
+    position: absolute;
+    z-index: 3;
+    top: -20%;
+    left: 14%;
+    transform: translate(50%, 50%);
+}
+  .icon-evaluation{
+    left: -14%;
+}
+}
+.hex.inner2:before {
+  border-bottom: 50px solid #c6c6c6;
+}
+.hex.inner2:after {
+  border-top: 50px solid #c6c6c6;
+}
+/*=============================================
+= Section Real-time =
+=============================================*/
+.real-time{
+  background-color: #f7f7f7;
+  padding: 55px 0;
+  @include media-breakpoint-up(lg){
+    padding: 147px 0;
+}
+  .rt-row{
+    display: flex;
+    flex-direction: column-reverse;
+    @include media-breakpoint-up(md){
+      flex-direction: row;
+}
+}
+  .rt-col{
+    width: 215px;
+    margin: 0 auto;
+    @include media-breakpoint-up(md){
+      width: 285px;
+}
+    @include media-breakpoint-up(lg){
+      width: 373px;
+}
+    @include media-breakpoint-up(xl){
+      margin-right: unset;
+}
+}
+  .lt-col{
+    h3{
+      font-weight: $font-weight-bold;
+      max-width: 240px;
+      margin: 30px auto 10px;
+      text-align: center;
+      @include media-breakpoint-up(md){
+        max-width: 350px;
+        text-align: left;
+        margin-left: unset;
+}
+      @include media-breakpoint-up(lg){
+        max-width: unset;
+}
+}
+    p{
+      max-width: 300px;
+      margin: 0px auto 20px;
+      text-align: center;
+      @include media-breakpoint-up(md){
+        max-width: 325px;
+        text-align: left;
+        margin-left: unset;
+        margin-right: unset;
+}
+      @include media-breakpoint-up(md){
+        max-width: 450px;
+}
+}
+    .border{
+      display: block;
+      width: 60px;
+      border: 3px solid #0088bb;
+      border-radius: 3px;
+      margin: 0 auto 20px;
+      @include media-breakpoint-up(md){
+        margin-left: unset;
+        margin-right: unset;
+}
+}
+}
+}
+
+
+
+
+
+/*===== End of Section comment block ======*/
+
+/*=============================================
+= Section comment block =
+=============================================*/
+
+
+.risk-scoring{
+  // background-color: #f7f7f7;
+  padding: 55px 0;
+  @include media-breakpoint-up(lg){
+    padding: 147px 0;
+}
+  .rt-row{
+    display: flex;
+    flex-direction: column-reverse;
+    @include media-breakpoint-up(md){
+      flex-direction: row-reverse;
+}
+}
+  .rt-col{
+    // align-self: flex-start;
+    width: 215px;
+    margin: 0 auto;
+    @include media-breakpoint-up(md){
+      width: 285px;
+}
+    @include media-breakpoint-up(lg){
+      width: 373px;
+}
+    @include media-breakpoint-up(xl){
+      margin-left: unset;
+}
+}
+  .lt-col{
+    h3{
+      font-weight: $font-weight-bold;
+      max-width: 240px;
+      margin: 30px auto 10px;
+      text-align: center;
+      @include media-breakpoint-up(md){
+        max-width: 350px;
+        text-align: right;
+        margin-right: unset;
+}
+      @include media-breakpoint-up(lg){
+        max-width: unset;
+        
+}
+}
+    p{
+      max-width: 300px;
+      margin: 0px auto 20px;
+      text-align: center;
+      @include media-breakpoint-up(md){
+        max-width: 325px;
+        text-align: right;
+        // margin-left: unset;
+        margin-right: unset;
+}
+      @include media-breakpoint-up(md){
+        max-width: 450px;
+}
+}
+    .border{
+      display: block;
+      width: 60px;
+      border: 3px solid #0088bb;
+      border-radius: 3px;
+      margin: 0 auto 20px;
+      @include media-breakpoint-up(md){
+        // margin-left: unset;
+        margin-right: unset;
+        
+}
+}
+}
+}
+.risk-read{
+  margin-top: 12px !important;
+}
+
+/*===== End of Section comment block ======*/
+
+/*=============================================
+= Section sw-subscription =
+=============================================*/
+.sw-subscription{
+  background-color: #f7f7f7;
+  padding-bottom: 10px;
+}
+.timeline{
+  padding-top: 60px;
+}
+.risk-timeline{
+
+  display: grid;
+  grid-template-columns: 60px 1fr;
+  
+  @include media-breakpoint-up(sm){
+    // margin-left: 55px;
+    max-width: 400px;
+  margin: 0 auto;
+}
+  @include media-breakpoint-up(md){
+    // margin-left: 110px;
+    max-width: 450px;
+}
+  @include media-breakpoint-up(lg){
+    // margin-left: 245px
+    max-width: 700px;
+}
+  // align-content: space-around;
+  // @include media-breakpoint-up(lg)
+  .timeline-bullets{
+    .bullets{
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background-color: #e80012;
+      margin: 0 auto;
+}
+    .vertical-line{
+      height: 99%;
+      width: 2px;
+      margin-left: 29px;
+      background-color: #acacac;
+}
+}
+}
+.timeline-text{
+  padding-bottom: 50px;
+  h4{
+    font-size: 20px;
+    font-weight: $font-weight-bold;
+    color: #747474;
+    @include media-breakpoint-up(lg){
+      font-size: 28px;
+}
+}
+  h5{
+    // font-size: 16px ;
+    font-weight: $font-weight-medium;
+    color: #747474 ;
+    @include media-breakpoint-up(lg){
+      font-size: 22px;
+}
+
+}
+  p{
+    max-width: 260px;
+    @include media-breakpoint-up(lg){
+      max-width: 620px;
+}
+}
+}
+
+.timeline .risk-timeline:nth-child(2){
+  
+  .timeline-bullets{
+    .bullets{
+      background-color: #60028b !important;
+}
+}
+}
+
+.timeline .risk-timeline:nth-child(3){
+  
+  .timeline-bullets{
+    .bullets{
+      background-color: #f7c631 !important;
+}
+}
+}
+.timeline .risk-timeline:nth-child(4){
+  
+  .timeline-bullets{
+    .bullets{
+      background-color: #58bc34 !important;
+}
+}
+}
+.timeline .risk-timeline:last-child{
+  .timeline-bullets{
+    .bullets{
+      background-color: #b2b2b2 !important;
+      width: 12px;
+      height: 12px;
+      margin-top: 18px;
+}
+}
+}
+
+/*===== End of Section sw-subscription ======*/
+
+
+/*=============================================
+= Section monitoring =
+=============================================*/
+
+.location{
+  margin-top: 80px;
+  margin-bottom: 80px;
+  h3{
+    font-weight: $font-weight-bold;
+    font-size: 22px;
+    text-align: center;
+    @include media-breakpoint-up(lg){
+      font-size: 32px;
+}
+}
+  p{
+    text-align: center;
+    @include media-breakpoint-up(lg){
+      font-size: 18px;
+      max-width: 970px;
+      margin: 0 auto;
+}
+
+}
+  .risk-grid{
+    /* display: flex;
+ flex-wrap: wrap;
+ align-content: center;
+ justify-content: space-around; */
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr;
+    @include media-breakpoint-up(lg){
+      grid-template-columns: 1fr 1fr;
+}
+    
+    /* @include media-breakpoint-up(md){
+ flex-direction: column;
+ } */
+    .risk-icon{
+      width: 75px;
+      height: 75px;
+      border-radius: 50%;
+      border: 3px solid #0088bb;
+      display: block;
+      margin: 0 auto 20px;
+      align-self: center;
+      position: relative;
+      
+      span{
+        font-size: 35px;
+        // padding-left: 20px;
+        // position: relative;
+        top: 18px;
+        position: absolute;
+
+left: 50%;
+
+top: 50%;
+
+transform: translate(-50%,-50%);
+}
+}
+// .icon-Business-Risk{
+// font-size: 35px !important;
+// padding-left: 12px !important;
+// }
+// .icon-Financial-Risk, .icon-Quality-of-Life{
+// padding-left: 18px !important;
+// }
+// .icon-Partners-Alliances-Risk{
+// padding-left: 5px !important;
+// }
+// .icon-Client-Risk{
+// padding-left: 7px !important;
+// }
+    h4{
+      font-size: 20px;
+      font-weight: 600;
+      text-align: center;
+      max-width: 250px;
+      @include media-breakpoint-up(lg){
+        font-size: 22px;
+        text-align: left;
+}
+}
+    p{
+      font-size: 15px;
+      max-width: 240px;
+      margin: 0 auto;
+      @include media-breakpoint-up(lg){
+        font-size: 16px;
+        text-align: left;
+        margin-left: 0 !important;
+}
+}
+}
+  .risk-content{
+    @include media-breakpoint-up(xl){
+      justify-self: start;
+}
+}
+  
+
+}
+.risk-item{
+  width: 260px;
+    margin: 30px auto;
+  @include media-breakpoint-up(md){
+    display: grid;
+    grid-template-columns: 1fr;
+    width: unset;
+}
+@include media-breakpoint-up(lg){
+    // min-width: 350px;
+    grid-template-columns: 0.5fr 1fr;
+    margin: 30px 0;
+}
+  @include media-breakpoint-up(xl){
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+}
+}
+
+/*===== End of Section monitoring ======*/

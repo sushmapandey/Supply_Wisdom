@@ -1,0 +1,117 @@
+/*
+Theme Name: Supply WIsdom
+Theme URI: https://www.dzineden.com/
+Author: Dzineden
+Author URI: http://www.krishnegowda.com
+Description: Custom theme built for Supply Wisdom
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: supplywisdom
+Tags: translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+supplywisdom is based on Underscores http://underscores.me/, (C) 2012-2016 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
+*/
+
+
+@import "functions";
+@import "columns";
+@import "variables";
+@import "mixins/mixins-master";
+@import "mixins";
+@import "header";
+@import "footer";
+@import "banner";
+@import "owl";
+@import "richa";
+@import "resource";
+@import "blog";
+@import "solutions";
+@import "archive";
+@import "contact";
+/*--------------------------------------------------------------
+# Normalize
+--------------------------------------------------------------*/
+@import "root";
+@import "reboot";
+
+
+/*--------------------------------------------------------------
+# type
+--------------------------------------------------------------*/
+@import "type";
+
+/*--------------------------------------------------------------
+# Icons
+--------------------------------------------------------------*/
+@import "icons";
+
+
+/*--------------------------------------------------------------
+# Grids
+--------------------------------------------------------------*/
+@import "grid";
+
+
+/*--------------------------------------------------------------
+# Buttons
+--------------------------------------------------------------*/
+@import "buttons";
+
+
+
+
+/*--------------------------------------------------------------
+# Navigation
+--------------------------------------------------------------*/
+@import "menu/menus";
+
+/*--------------------------------------------------------------
+# Accessibility
+--------------------------------------------------------------*/
+@import "modules/accessibility";
+
+/*--------------------------------------------------------------
+# Alignments
+--------------------------------------------------------------*/
+@import "modules/alignments";
+
+/*--------------------------------------------------------------
+# Clearings
+--------------------------------------------------------------*/
+@import "modules/clearings";
+
+/*--------------------------------------------------------------
+# Widgets
+--------------------------------------------------------------*/
+@import "site/secondary/widgets";
+
+/*--------------------------------------------------------------
+# Content
+--------------------------------------------------------------*/
+@import "site/site";
+
+/*--------------------------------------------------------------
+# Infinite scroll
+--------------------------------------------------------------*/
+@import "modules/infinite-scroll";
+
+/*--------------------------------------------------------------
+# Media
+--------------------------------------------------------------*/
+@import "media/media";
+
+/*--------------------------------------------------------------
+# Print
+--------------------------------------------------------------*/
+
+
+@import "print";
+

@@ -1,0 +1,488 @@
+@font-face {
+  font-family: 'supply-wisdom';
+  src:  url('fonts/supply-wisdom.eot?vptvyd');
+  src:  url('fonts/supply-wisdom.eot?vptvyd#iefix') format('embedded-opentype'),
+    url('fonts/supply-wisdom.ttf?vptvyd') format('truetype'),
+    url('fonts/supply-wisdom.woff?vptvyd') format('woff'),
+    url('fonts/supply-wisdom.svg?vptvyd#supply-wisdom') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'supply-wisdom' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Act:before {
+  content: "\e900";
+  color: #fff;
+}
+.icon-angle-left-icon:before {
+  content: "\e911";
+  color: #08b;
+}
+.icon-Business-Risk:before {
+  content: "\e931";
+  color: #08b;
+}
+.icon-business-man-icon:before {
+  content: "\e932";
+  color: #08b;
+}
+.icon-Client-Risk:before {
+  content: "\e933";
+  color: #08b;
+}
+.icon-data-alerts:before {
+  content: "\e95a";
+  color: #fff;
+}
+.icon-evaluation:before {
+  content: "\e96f";
+  color: #fff;
+}
+.icon-facbook-rounded-icon .path1:before {
+  content: "\e970";
+  color: rgb(255, 255, 255);
+}
+.icon-facbook-rounded-icon .path2:before {
+  content: "\e971";
+  margin-left: -1em;
+  color: rgb(116, 116, 116);
+}
+.icon-facebook-icon:before {
+  content: "\e972";
+  /* color: #fff; */
+}
+.icon-facebook-rounded-icon .path1:before {
+  content: "\e973";
+  color: rgb(255, 255, 255);
+}
+.icon-facebook-rounded-icon .path2:before {
+  content: "\e974";
+  margin-left: -1em;
+  color: rgb(116, 116, 116);
+}
+.icon-Financial-Risk1:before {
+  content: "\e975";
+  color: #08b;
+}
+.icon-Financial-Risk:before {
+  content: "\e976";
+  color: #08b;
+}
+.icon-Geo-Political-Risk:before {
+  content: "\e977";
+  color: #08b;
+}
+.icon-Governance-Risk .path1:before {
+  content: "\e978";
+  color: rgb(1, 204, 155);
+}
+.icon-Governance-Risk .path2:before {
+  content: "\e979";
+  margin-left: -1em;
+  color: rgb(1, 153, 116);
+}
+.icon-Governance-Risk .path3:before {
+  content: "\e97a";
+  margin-left: -1em;
+  color: rgb(1, 153, 116);
+}
+.icon-Governance-Risk .path4:before {
+  content: "\e97b";
+  margin-left: -1em;
+  color: rgb(1, 153, 116);
+}
+.icon-Governance-Risk .path5:before {
+  content: "\e97c";
+  margin-left: -1em;
+  color: rgb(1, 153, 116);
+}
+.icon-Governance-Risk .path6:before {
+  content: "\e97d";
+  margin-left: -1em;
+  color: rgb(1, 153, 116);
+}
+.icon-Governance-Risk .path7:before {
+  content: "\e97e";
+  margin-left: -1em;
+  color: rgb(1, 153, 116);
+}
+.icon-Governance-Risk .path8:before {
+  content: "\e97f";
+  margin-left: -1em;
+  color: rgb(1, 153, 116);
+}
+.icon-Infrastructure-Risk:before {
+  content: "\e980";
+  color: #08b;
+}
+.icon-Infrastructure-Risk1:before {
+  content: "\e981";
+  color: #08b;
+}
+.icon-linkedIn-icon:before {
+  content: "\e982";
+  color: #fff;
+}
+.icon-linkedin-rounded-icon-1285 .path1:before {
+  content: "\e983";
+  color: rgb(255, 255, 255);
+}
+.icon-linkedin-rounded-icon-1285 .path2:before {
+  content: "\e984";
+  margin-left: -1em;
+  color: rgb(116, 116, 116);
+}
+.icon-linkedin-rounded-icon-1285 .path3:before {
+  content: "\e985";
+  margin-left: -1em;
+  color: rgb(116, 116, 116);
+}
+.icon-linkedin-rounded-icon .path1:before {
+  content: "\e986";
+  color: rgb(255, 255, 255);
+}
+.icon-linkedin-rounded-icon .path2:before {
+  content: "\e987";
+  margin-left: -1em;
+  color: rgb(116, 116, 116);
+}
+.icon-linkedin-rounded-icon .path3:before {
+  content: "\e988";
+  margin-left: -1em;
+  color: rgb(116, 116, 116);
+}
+.icon-LOGO:before {
+  content: "\e989";
+}
+.icon-Macro-Economic-Risk .path1:before {
+  content: "\e98a";
+  color: rgb(1, 204, 155);
+}
+.icon-Macro-Economic-Risk .path2:before {
+  content: "\e98b";
+  margin-left: -1em;
+  color: rgb(1, 153, 116);
+}
+.icon-Macro-Economic-Risk .path3:before {
+  content: "\e98c";
+  margin-left: -1em;
+  color: rgb(1, 153, 116);
+}
+.icon-Macro-Economic-Risk .path4:before {
+  content: "\e98d";
+  margin-left: -1em;
+  color: rgb(1, 153, 116);
+}
+.icon-Macro-Economic-Risk .path5:before {
+  content: "\e98e";
+  margin-left: -1em;
+  color: rgb(1, 153, 116);
+}
+.icon-Macro-Economic-Risk .path6:before {
+  content: "\e98f";
+  margin-left: -1em;
+  color: rgb(1, 153, 116);
+}
+.icon-Macro-Economic-Risk .path7:before {
+  content: "\e990";
+  margin-left: -1em;
+  color: rgb(1, 153, 116);
+}
+.icon-Macro-Economic-Risk .path8:before {
+  content: "\e991";
+  margin-left: -1em;
+  color: rgb(1, 153, 116);
+}
+.icon-Macro-Economic-Risk .path9:before {
+  content: "\e992";
+  margin-left: -1em;
+  color: rgb(1, 153, 116);
+}
+.icon-Macro-Economic-Risk .path10:before {
+  content: "\e993";
+  margin-left: -1em;
+  color: rgb(1, 153, 116);
+}
+.icon-Macro-Economic-Risk .path11:before {
+  content: "\e994";
+  margin-left: -1em;
+  color: rgb(1, 153, 116);
+}
+.icon-Macro-Economic-Risk .path12:before {
+  content: "\e995";
+  margin-left: -1em;
+  color: rgb(1, 153, 116);
+}
+.icon-Macro-Economic-Risk .path13:before {
+  content: "\e996";
+  margin-left: -1em;
+  color: rgb(1, 153, 116);
+}
+.icon-Macro-Economic-Risk .path14:before {
+  content: "\e997";
+  margin-left: -1em;
+  color: rgb(1, 153, 116);
+}
+.icon-Macro-Economic-Risk .path15:before {
+  content: "\e998";
+  margin-left: -1em;
+  color: rgb(1, 153, 116);
+}
+.icon-Macro-Economic-Risk .path16:before {
+  content: "\e999";
+  margin-left: -1em;
+  color: rgb(1, 153, 116);
+}
+.icon-Macro-Economic-Risk .path17:before {
+  content: "\e99a";
+  margin-left: -1em;
+  color: rgb(1, 153, 116);
+}
+.icon-Macro-Economic-Risk .path18:before {
+  content: "\e99b";
+  margin-left: -1em;
+  color: rgb(1, 153, 116);
+}
+.icon-Macro-Economic-Risk .path19:before {
+  content: "\e99c";
+  margin-left: -1em;
+  color: rgb(1, 153, 116);
+}
+.icon-Macro-Economic-Risk .path20:before {
+  content: "\e99d";
+  margin-left: -1em;
+  color: rgb(1, 153, 116);
+}
+.icon-Macro-Economic-Risk .path21:before {
+  content: "\e99e";
+  margin-left: -1em;
+  color: rgb(1, 153, 116);
+}
+.icon-Macro-Economic-Risk .path22:before {
+  content: "\e99f";
+  margin-left: -1em;
+  color: rgb(1, 153, 116);
+}
+.icon-Macro-Economic-Risk .path23:before {
+  content: "\e9a0";
+  margin-left: -1em;
+  color: rgb(1, 153, 116);
+}
+.icon-noun_corporate-management_1874102:before {
+  content: "\e9a2";
+  color: #08b;
+}
+.icon-noun_economics_2000847:before {
+  content: "\e9a3";
+  color: #08b;
+}
+.icon-noun_send_8872991:before {
+  content: "\e9a4";
+  color: #fff;
+}
+.icon-Partners-Alliances-Risk:before {
+  content: "\e9c0";
+  color: #08b;
+}
+.icon-proactive-icon:before {
+  content: "\e9c1";
+  color: #08b;
+}
+.icon-Quality-of-Life:before {
+  content: "\e9c2";
+  color: #08b;
+}
+.icon-quote-left-icon:before {
+  content: "\e9c3";
+  color: #ff7841;
+}
+.icon-quote-right-icon:before {
+  content: "\e9c4";
+  color: #ff7841;
+}
+.icon-Scalability-Risk:before {
+  content: "\e9ef";
+  color: #08b;
+}
+.icon-search:before {
+  content: "\e9f0";
+  color: #12c6ff;
+}
+.icon-Security:before {
+  content: "\e9f1";
+  color: #08b;
+}
+.icon-Security-Risk:before {
+  content: "\e9f2";
+  color: #08b;
+}
+.icon-send-message-icon:before {
+  content: "\e9f3";
+  color: #ff7841;
+}
+.icon-Service-Maturity-Risk:before {
+  content: "\e9f4";
+  color: #08b;
+}
+.icon-strength-icon:before {
+  content: "\ea01";
+  color: #08b;
+}
+.icon-third-party-icon:before {
+  content: "\ea12";
+  color: #08b;
+}
+.icon-Thought-Leadership-Risk:before {
+  content: "\ea13";
+  color: #08b;
+}
+.icon-twitter-icon:before {
+  content: "\ea1c";
+  color: #fff;
+}
+.icon-twitter-rounded-icon .path1:before {
+  content: "\ea1d";
+  color: rgb(255, 255, 255);
+}
+.icon-twitter-rounded-icon .path2:before {
+  content: "\ea1e";
+  margin-left: -1em;
+  color: rgb(116, 116, 116);
+}
+.icon-twitter-rounded-icon-on-hover .path1:before {
+  content: "\ea1f";
+  color: rgb(255, 255, 255);
+}
+.icon-twitter-rounded-icon-on-hover .path2:before {
+  content: "\ea20";
+  margin-left: -1em;
+  color: rgb(92, 188, 237);
+}
+.icon-z .path1:before {
+  content: "\ea31";
+  color: rgb(255, 120, 65);
+}
+.icon-z .path2:before {
+  content: "\ea32";
+  margin-left: -1.0576171875em;
+  color: rgb(255, 255, 255);
+}
+.icon-z .path3:before {
+  content: "\ea33";
+  margin-left: -1.0576171875em;
+  color: rgb(255, 209, 186);
+}
+.icon-z .path4:before {
+  content: "\ea34";
+  margin-left: -1.0576171875em;
+  color: rgb(60, 60, 60);
+}
+.icon-z .path5:before {
+  content: "\ea35";
+  margin-left: -1.0576171875em;
+  color: rgb(60, 60, 60);
+}
+.icon-z .path6:before {
+  content: "\ea36";
+  margin-left: -1.0576171875em;
+  color: rgb(255, 209, 186);
+}
+.icon-z .path7:before {
+  content: "\ea37";
+  margin-left: -1.0576171875em;
+  color: rgb(60, 60, 60);
+}
+.icon-z .path8:before {
+  content: "\ea38";
+  margin-left: -1.0576171875em;
+  color: rgb(242, 242, 242);
+}
+.icon-z .path9:before {
+  content: "\ea39";
+  margin-left: -1.0576171875em;
+  color: rgb(255, 120, 65);
+}
+.icon-z .path10:before {
+  content: "\ea3a";
+  margin-left: -1.0576171875em;
+  color: rgb(160, 160, 160);
+}
+.icon-z .path11:before {
+  content: "\ea3b";
+  margin-left: -1.0576171875em;
+  color: rgb(160, 160, 160);
+}
+.icon-z .path12:before {
+  content: "\ea3c";
+  margin-left: -1.0576171875em;
+  color: rgb(255, 209, 186);
+}
+.icon-z .path13:before {
+  content: "\ea3d";
+  margin-left: -1.0576171875em;
+  color: rgb(60, 60, 60);
+}
+.icon-z .path14:before {
+  content: "\ea3e";
+  margin-left: -1.0576171875em;
+  color: rgb(255, 209, 186);
+}
+.icon-z .path15:before {
+  content: "\ea3f";
+  margin-left: -1.0576171875em;
+  color: rgb(60, 60, 60);
+}
+.icon-z .path16:before {
+  content: "\ea40";
+  margin-left: -1.0576171875em;
+  color: rgb(43, 43, 43);
+}
+.icon-z .path17:before {
+  content: "\ea41";
+  margin-left: -1.0576171875em;
+  color: rgb(0, 107, 147);
+}
+.icon-z .path18:before {
+  content: "\ea42";
+  margin-left: -1.0576171875em;
+  color: rgb(0, 107, 147);
+}
+.icon-z .path19:before {
+  content: "\ea43";
+  margin-left: -1.0576171875em;
+  color: rgb(0, 107, 147);
+}
+.icon-z .path20:before {
+  content: "\ea44";
+  margin-left: -1.0576171875em;
+  color: rgb(255, 255, 255);
+}
+.icon-z .path21:before {
+  content: "\ea45";
+  margin-left: -1.0576171875em;
+  color: rgb(255, 255, 255);
+}
+.icon-z .path22:before {
+  content: "\ea46";
+  margin-left: -1.0576171875em;
+  color: rgb(255, 255, 255);
+}
+.icon-z .path23:before {
+  content: "\ea47";
+  margin-left: -1.0576171875em;
+  color: rgb(255, 255, 255);
+}

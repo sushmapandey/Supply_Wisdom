@@ -1,0 +1,164 @@
+
+
+/* STYLES SPECIFIC TO FOOTER  */
+.footer {
+  width: 100%;
+  background-color: #05437a;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.contain{
+  display: flex;
+  flex-direction: column;
+  @include media-breakpoint-up(sm){
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+.footer .col {
+  margin-bottom: 60px;
+  @include media-breakpoint-up(sm){
+    flex-basis: 50%;
+  }
+  @include media-breakpoint-up(md){
+    flex-basis: 33.33%;
+  }
+  @include media-breakpoint-up(xl){
+    flex-basis: 25%;
+    &:nth-child(3){
+      flex-basis: 17%;
+    }
+    &:last-child{
+      flex-basis: 33%;
+    }
+  }
+}
+
+.footer .col h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 1.19;
+  color: $white;
+  text-transform: uppercase;
+  margin-bottom: 22px;
+  font-weight: $font-weight-bold;
+}
+.footer .col ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.footer .col ul li {
+  color: $white;
+  font-size: 15px;
+  line-height: 24px;
+}
+.footer .col ul li:first-child {
+  margin-bottom: 20px;
+}
+.mb {
+  margin-bottom: 0!important;
+}
+.footer .col ul li a{
+  color: $white;
+  font-size: 15px;
+}
+
+.footer .col ul li:hover {
+  color: #ffffff;
+  
+}
+
+
+
+
+//news field
+
+
+
+.news_btn{
+position:relative;
+input{
+  width:100%;
+  height:40px;
+  border-radius:20px;
+  border:none;
+  padding-left:20px;
+  // position: relative;
+  @include media-breakpoint-up(md){
+    // max-width: 350px;
+  }
+  // font-family:$font-family-para;
+}
+button{
+  width:130px;
+  background-color: $secondary;
+  color:$white; 
+  border-radius:20px;
+  border:none;
+  height:40px;
+  position:absolute;
+  top:0px;
+  right:0px;
+  font-size: 14px;
+  text-transform: uppercase;
+  // font-family:$font-family-para;
+  
+}
+}button:hover{
+  border:solid 2px $secondary;
+  background-image:none;
+  background-color:$white;
+  color:#28aae1;
+  i{
+    color: $secondary;
+    // background-color: $secondary;
+  }
+}
+
+input[placeholder]{
+  font-size: 14px;
+  color: #ccc;
+}
+
+/*=====================================
+=            footer bottom            =
+=====================================*/
+
+.bottom-footer{
+  background-color: darken($primary,13%);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  .container{
+    display: flex;
+    flex-direction: column;
+    color:$white;
+    @include media-breakpoint-up(sm){
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    p{
+      font-size: 12px;
+      @include media-breakpoint-up(sm){
+        margin-bottom: 0;
+      }
+    }
+    ul{
+      list-style: none;
+      padding-top: 0;
+      display: flex;
+      @include media-breakpoint-up(sm){
+        margin-bottom: 0;
+      }
+      li{
+        width: 30px;
+        a{
+          color: $white;
+        }
+      }
+    }
+  }
+}
+
+/*=====  End of footer bottom  ======*/

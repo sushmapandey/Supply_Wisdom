@@ -1,0 +1,242 @@
+.sw-pb{
+  padding-bottom: 60px;
+  @include media-breakpoint-up(md){
+    padding-bottom: 100px;
+  }
+}
+.sw-resource{
+  display: flex;
+  flex-direction: column;
+  @include media-breakpoint-up(md){
+    flex-direction: row;
+  }
+  div:first-child{
+    @include media-breakpoint-up(md){
+      width: 50%;
+    }
+  }
+  div:last-child{
+    width: 90%;
+    margin: auto;
+    padding: 40px 25px;
+    @include media-breakpoint-up(md){
+      width: 50%;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+    @include media-breakpoint-up(lg){
+      max-width: 520px;
+    }
+    @include media-breakpoint-up(xl){
+      margin-left: 70px;
+    }
+
+    h1{
+      font-size: 32px;
+      @include media-breakpoint-up(md){
+        font-size: 27px;
+      }
+      @include media-breakpoint-up(lg){
+        font-size: 42px;
+      }
+    }
+    p{
+      font-size: 16px;
+      @include media-breakpoint-up(md){
+        font-size: 15px;
+      }
+      @include media-breakpoint-up(lg){
+        font-size: 18px;
+      }
+    }
+  }
+}
+
+.sw-featured{
+  background-color: $gray-100;
+
+}
+  .sw-resources-card{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: stretch;
+  }
+    .resource-card{
+      margin-bottom: 30px;
+      @include media-breakpoint-up(md){
+        width: 50%;
+      }
+      @include media-breakpoint-up(lg){
+        width: 33.33%;
+      }
+
+      .card{
+        margin: 15px;
+        margin-top: 0;
+        background-color: $white;
+        transition: all .2s;
+        box-shadow: 0 8px 25px 0 rgba(33, 33, 33, 0.16);
+        cursor: pointer;
+        position: relative;
+        height: 100%;
+        padding-bottom: 55px;
+
+        &:hover{
+          transform: scale(1.1);
+          box-shadow: 0 10px 30px 0 rgba(43, 43, 43, 0.16);
+
+        }
+        img{
+          height: 250px;
+          object-fit: cover;
+        }
+
+        p{
+          padding: 20px;
+          margin-bottom: 0;
+          a{
+            font-weight: 600;
+            color: #747474;
+            font-size: 21px;
+            @include media-breakpoint-up(xl){
+              font-size: 24px;
+            }
+          }
+        }
+        .socials-link{
+          background-color: $secondary;
+          display: flex;
+          justify-content: flex-end;
+          color: $white;
+          padding: 10px ;
+          position: absolute;
+          width: 100%;
+          bottom: 0;
+        }
+      }
+    }
+
+
+.resource-card .socials-link i {
+  width: 30px;
+  height: 30px;
+  background: #fff;
+  color: $gray;
+  border-radius: 50%;
+  text-align: center;
+  display: block;
+  line-height: 30px;
+  margin-left: 10px;
+  transition: all .1s ease-in-out;
+
+  &:hover{
+    transform: scale(1.4);
+
+  }
+}
+
+/*=====================================
+=            socials icons            =
+=====================================*/
+
+.socials-link i{
+  &:first-child:hover{
+    color: #3b5999;
+  }
+  &:nth-child(2):hover{
+    color: #55acee;
+  }
+  &:last-child:hover{
+    color: #0077B5;
+  }
+
+}
+
+/*=====  End of socials icons  ======*/
+
+
+
+
+/*=================================
+=            subscribe            =
+=================================*/
+
+.bg-subscribe {
+  position: relative;
+  // height: 95%;
+  // box-shadow: unset;
+  background-image: url('img/subscribe.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  @include media-breakpoint-up(xl){
+    height: unset;
+  }
+  img{
+    // object-fit: cover;
+    height: unset !important;
+  }
+  .text{
+    position: absolute;
+    color: $white;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    h3{
+      color: $white;
+      font-size: 42px;
+    }
+    p{
+      color: $white;
+      font-size: 16px;
+      min-height: unset;
+    }
+    input{
+      width: 100%;
+      height: 50px;
+      border-radius: 5px;
+      background-color: #fcfcfc;
+      border: none;
+      color: #b5b5b5;
+      font-size: 18px;
+      font-weight: 500;
+      padding-left: 20px;
+      position: relative;
+    }
+    i{
+      position: absolute;
+      right: 30px;
+      top: 85%;
+      bottom: 15px;
+      font-size: 20px;
+    }
+  }
+}
+
+/*=====  End of subscribe  ======*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
